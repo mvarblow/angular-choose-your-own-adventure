@@ -1,0 +1,15 @@
+[
+  {
+    "number": 1,
+    "narrative": "You wake up on the shore of a lush tropic island, unsure how you got there.",
+    "choices": [
+      { "text": "Swim for home", "nextPage": 2 },
+      { "text": "Explore the beach", "nextPage": 3 },
+      { "text": "Explore the jungle", "nextPage": 4 }
+    ]
+  },
+  {
+    "number": 2,
+    "narrative": "You drown."
+  }
+]

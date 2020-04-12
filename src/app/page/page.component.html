@@ -1,0 +1,11 @@
+<div *ngIf="currentPage">
+  <h3>Page {{ currentPage.number }}</h3>
+  
+  <div class="narrative">
+    {{ currentPage.narrative }}
+  </div>
+  
+  <div class="choice" *ngFor="let choice of currentPage.choices; index as nextPage">
+    <a [routerLink]="['/pages:',nextPage]">{{ choice.text }}</a>
+  </div>
+</div>

@@ -1,6 +1,6 @@
 {
-  "name": "odpeknvxnlq.angular",
-  "version": "0.0.0",
+  "name": "choose-your-own-adventure",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "rxjs": "6.5.5",
